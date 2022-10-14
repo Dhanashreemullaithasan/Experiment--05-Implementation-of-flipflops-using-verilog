@@ -121,10 +121,10 @@ Step 5: At the end give endmodule.
 Step 6: Run the program and choose RTL viewer to get RTL realization.
 
 ### PROGRAM :
-/*
+
 Developed by: DHANASHREE.M
 RegisterNumber:  212221230018
-*/
+
 ```
 SR FLIPFLOP:
 
