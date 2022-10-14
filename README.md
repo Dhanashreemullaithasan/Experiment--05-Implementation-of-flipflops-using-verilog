@@ -112,7 +112,8 @@ Program for flipflops  and verify its truth table in quartus using Verilog progr
 
 Developed by: DHANASHREE.M
 RegisterNumber:  212221230018
-
+*/
+```
 SR FLIPFLOP:
 
 module ex05(S,R,Clk,Q,Qbar);
@@ -161,10 +162,24 @@ nand(Y,T,Clk,Q);
 nand(Q,X,Qbar);
 nand(Qbar,Y,Q);
 endmodule
-*/
+```
 
 ### RTL LOGIC FOR FLIPFLOPS :
 
+## SR FLIPFLOP:
+![sr](https://user-images.githubusercontent.com/94165415/195858325-7a01227f-f094-48c6-8d07-e5c2a85f0ded.png)
+
+## D(DELAY) FLIPFLOP:
+![DE2](https://user-images.githubusercontent.com/94165415/195858430-14ae1368-ce2f-4ebe-8647-b914e0043644.png)
+
+## JK FLIPFLOP:
+![jk](https://user-images.githubusercontent.com/94165415/195858517-56af3493-05c3-445a-9764-90f0fb328f8b.png)
+
+## T FLIPFLOP:
+![wf4](https://user-images.githubusercontent.com/94165415/195858600-151ba021-2245-4491-b5d6-e066c6c0f409.png)
+
+
+### TIMING DIGRAMS FOR FLIP FLOPS :
 
 
 
@@ -172,13 +187,6 @@ endmodule
 
 
 
-### TIMING DIGRAMS FOR FLIP FLOPS 
 
-
-
-
-
-
-
-
-### RESULTS 
+### RESULTS :
+All the flipflops are implementde using verilog and their functionality has been validated using their functional tables.
