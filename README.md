@@ -101,20 +101,32 @@ From the above characteristic table, we can directly write the next state equati
 Q(t+1)=T′Q(t)+TQ(t)′
 ⇒Q(t+1)=T⊕Q(t)
 
-### Procedure
-/* write all the steps invloved */
+### Procedure:
+
+Step 1: Open Quartus II and select new project and choose the file location.
 
 
+Step 2: Module Declaration. Module should have the file name.
 
-### PROGRAM 
+
+Step 3: Input-Output Delecaration.
+
+
+Step 4: Use assign declaration and wire to define the functionality of logic circuits.
+
+
+Step 5: At the end give endmodule.
+
+
+Step 6: Run the program and choose RTL viewer to get RTL realization.
+
+### PROGRAM :
 /*
-Program for flipflops  and verify its truth table in quartus using Verilog programming.
-
 Developed by: DHANASHREE.M
 RegisterNumber:  212221230018
 */
 ```
-SR FLIPFLOP:
+## SR FLIPFLOP:
 
 module ex05(S,R,Clk,Q,Qbar);
 input S,R,Clk;
@@ -126,7 +138,7 @@ nand(Q,X,Qbar);
 nand(Qbar,Y,Q);
 endmodule
 
-D(DELAY) FLIPFLOP:
+## D(DELAY) FLIPFLOP:
 
 module ex05(D,Clk,Q,Qbar);
 input D,Clk;
@@ -139,7 +151,7 @@ nand(Q,X,Qbar);
 nand(Qbar,Y,Q);
 endmodule
 
-JK FLIPFLOP:
+## JK FLIPFLOP:
 
 module ex05(J,K,Clk,Q,Qbar);
 input J,K,Clk;
@@ -151,7 +163,7 @@ nand(Q,X,Qbar);
 nand(Qbar,Y,Q);
 endmodule
 
-T(TOGGLE) FLIPFLOP:
+## T(TOGGLE) FLIPFLOP:
 
 module ex05(T,Clk,Q,Qbar);
 input T,Clk;
@@ -181,12 +193,17 @@ endmodule
 
 ### TIMING DIGRAMS FOR FLIP FLOPS :
 
+## SR FLIPFLOP:
+![wf1](https://user-images.githubusercontent.com/94165415/195859452-ebdb8e0c-6ebd-4aa5-9073-b7a594b7cd0a.png)
 
+## D(DELAT) FLIPFLOP:
+![wf1](https://user-images.githubusercontent.com/94165415/195859980-5667007f-1052-4cec-b6f9-4f27d7446a3e.png)
 
+## JK FLIPFLOP:
+![wf3](https://user-images.githubusercontent.com/94165415/195859636-89cb55c8-4c02-4eb9-a149-e6753fa39d22.png)
 
-
-
-
+## T FLIPFLOP:
+![0wf4](https://user-images.githubusercontent.com/94165415/195859717-e6a9e87e-6f4f-40a7-80ad-d7ca92612a8c.png)
 
 ### RESULTS :
 All the flipflops are implementde using verilog and their functionality has been validated using their functional tables.
