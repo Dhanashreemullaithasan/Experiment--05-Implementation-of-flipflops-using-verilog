@@ -126,7 +126,7 @@ Developed by: DHANASHREE.M
 RegisterNumber:  212221230018
 */
 ```
-## SR FLIPFLOP:
+SR FLIPFLOP:
 
 module ex05(S,R,Clk,Q,Qbar);
 input S,R,Clk;
@@ -138,7 +138,7 @@ nand(Q,X,Qbar);
 nand(Qbar,Y,Q);
 endmodule
 
-## D(DELAY) FLIPFLOP:
+D(DELAY) FLIPFLOP:
 
 module ex05(D,Clk,Q,Qbar);
 input D,Clk;
@@ -151,7 +151,7 @@ nand(Q,X,Qbar);
 nand(Qbar,Y,Q);
 endmodule
 
-## JK FLIPFLOP:
+JK FLIPFLOP:
 
 module ex05(J,K,Clk,Q,Qbar);
 input J,K,Clk;
@@ -163,7 +163,7 @@ nand(Q,X,Qbar);
 nand(Qbar,Y,Q);
 endmodule
 
-## T(TOGGLE) FLIPFLOP:
+T(TOGGLE) FLIPFLOP:
 
 module ex05(T,Clk,Q,Qbar);
 input T,Clk;
